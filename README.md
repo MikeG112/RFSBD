@@ -15,7 +15,11 @@ The main requirements to use this repository are:
 3.  pytest (to run unit tests)
 
  To construct an environment containing the specific versions of these
- dependencies used to tes the code, one should use conda or pip to ingest ``requirements.yml`` or ``requirements.txt`` respectively.
+ dependencies used to test the code, one should use conda or pip to ingest
+``requirements.yml`` or ``requirements.txt`` respectively. For example, with
+conda one can run:
+
+``conda env create -f requirements.yml``
 
 # Usage
 
@@ -30,6 +34,8 @@ on a random test video:
 >>> model = RFSBD()
 >>> model(random_video)
 ```
+
+The training script is under construction, and at this time does not work.
 
 # Testing
 

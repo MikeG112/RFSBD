@@ -14,3 +14,6 @@ def test_RFSBD_forwards():
     assert model(random_video) is not None, "Model doesn't compute!"
 
     return None
+
+def test_RFSBD_output_shape():
+    pass
