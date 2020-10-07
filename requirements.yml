@@ -1,0 +1,14 @@
+name: pytorch_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.5
+  - pytorch
+  - cudatoolkit=10.2
+  - torchvision
+  - matplotlib
+  - pytest
+  - pip
+  - scikit-learn
+  - flake8
