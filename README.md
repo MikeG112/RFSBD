@@ -5,6 +5,9 @@ proposed in:
 
 https://arxiv.org/pdf/1705.08214.pdf
 
+This was completed, among other tasks, within the timeframe of a one day technical interview for an ML position.
+Since I do not have independent use for it, I have opted not to complete the unfinished implementation
+details e.g. the training script.
 
 # Requirements
 
@@ -35,7 +38,7 @@ on a random test video:
 >>> model(random_video)
 ```
 
-The training script is under construction, and at this time does not work.
+The training script is under construction, and at this time is not finished.
 
 # Testing
 
